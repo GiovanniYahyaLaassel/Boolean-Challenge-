@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.conteiner{
+    width: 950px;
+    height: 680px;
+    padding: 48px;
+    margin: auto;
+    border-radius:3%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+header,nav{
+    text-align: center;
+    color: limegreen;
+    font-style: italic;
+}  
+img{
+    width: 180px;
+}
+
+/* nav code */
+
+.reservationbar{
+    width: auto;
+    height: 40px;
+    padding-top: 10px;
+    background-color:limegreen;
+}
+
+input{
+    font-style: oblique;
+    border-radius: 10px;
+}
+
+/* main code */
+
+h2,span{
+    display:inline-block;
+}
+span{
+    display: block;
+}
+
+.arrow:before{
+    content: "\21A6";
+}
+
+.batterystatus > div{
+    height: 20px;
+    border-radius: 6px;
+
+}
+.ginobattery{
+    width: 250px;
+    background-color: rgb(255, 179, 0);
+}
+
+.mikebattery{
+    width: 450px;
+    background-color: rgb(2, 173, 2)
+}
+
+.fedebattery{
+    width: 150px;
+    background-color: rgb(189, 3, 3);
+}
+main,footer{
+    color: white;
+    font-style: oblique;
+}
+
+footer{
+    text-align: center;
+    
+}
